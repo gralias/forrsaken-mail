@@ -12,14 +12,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://gitlab.com/nhiennn/forrsaken-mail.git"
+    "url": "git+https://github.com/gralias/forsaken-mail.git"
   },
   "author": "Gralias",
   "license": "GPL-2.0",
   "bugs": {
-    "url": "https://gitlab.com/nhiennn/forrsaken-mail/-/issues"
+    "url": "https://github.com/gralias/forsaken-mail/issues"
   },
-  "homepage": "https://gitlab.com/nhiennn/forrsaken-mail.git#readme",
+  "homepage": "https://github.com/gralias/forsaken-mail.git#readme",
   "dependencies": {
     "body-parser": "^1.14.2",
     "debug": "^2.2.0",
