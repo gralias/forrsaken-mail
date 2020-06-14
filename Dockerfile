@@ -4,10 +4,7 @@ MAINTAINER Gralias <gralias@yopmail.com>
 RUN apt-get clean all
 RUN apt-get update
 RUN apt-get -y install git
-RUN git clone https://github.com/gralias/forsaken-mail
-RUN cd forsaken-mail
-RUN git pull
-
+RUN git clone --branch master https://github.com/gralias/forsaken-mail
 WORKDIR /forsaken-mail
 
 RUN npm install
