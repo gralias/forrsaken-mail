@@ -5,6 +5,8 @@ RUN apt-get clean all
 RUN apt-get update
 RUN apt-get -y install git
 RUN git clone https://github.com/gralias/forsaken-mail
+RUN git checkout master
+RUN git pull
 
 WORKDIR /forsaken-mail
 
